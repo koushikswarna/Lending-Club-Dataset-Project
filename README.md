@@ -12,9 +12,7 @@ A machine learning project to predict the status of loans using historical loan 
 5. [Models](#models)  
 6. [Training](#training)  
 7. [Results](#results)  
-8. [Usage](#usage)  
-9. [Notes](#notes)  
-10. [Author](#author)  
+
 
 ---
 
