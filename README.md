@@ -51,7 +51,7 @@ The dataset includes features related to loan applications and statuses. Target 
 - **Scaling**: `StandardScaler` applied to features.  
 - **Train-test split**: 50-50 split used in this project.  
 
-> **Note:** Any print statements used during development for debugging have been intentionally removed from this repository for clarity.  
+> **Note:** Any print statements used during development for debugging or for any use in general have been intentionally removed from this repository for clarity.  
 
 ---
 
