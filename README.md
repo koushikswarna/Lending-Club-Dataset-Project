@@ -83,8 +83,7 @@ The dataset includes features related to loan applications and statuses. Target 
 | Random Forest | ~86% | Robust classical approach |
 | Deep Neural Network | ~80% | Sensitive to learning rate; performs well with tuned hyperparameters |
 
-> Validation accuracy is considered the primary metric due to class imbalance and multi-class nature of the target.  
-
+> Validation accuracy is considered the primary metric due to class imbalance and multi-class nature of the target. Experiments with larger batch sizes or deeper networks were constrained by hardware, so careful tuning was performed to maximize model performance on available resources
 ---
 
 
