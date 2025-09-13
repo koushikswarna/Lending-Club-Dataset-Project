@@ -1,6 +1,6 @@
 # Loan Status Prediction
 
-A machine learning project to predict the status of loans using historical loan data. This repository demonstrates the application of both classical and deep learning models for multi-class classification of loan outcomes.  
+A machine learning project to predict the status of loans using historical loan data. 
 
 ---
 
