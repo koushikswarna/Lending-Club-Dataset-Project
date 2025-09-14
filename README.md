@@ -59,7 +59,8 @@ The dataset includes features related to loan applications and statuses. Target 
 
 ### Random Forest
 - Standard `RandomForestClassifier` from scikit-learn.  
-- Achieved approximately **86% test accuracy**.  
+- Achieved approximately **86% test accuracy**.
+- The Random Forest achieved ~86% accuracy even without full imputation. Given the RAM limitations, I prioritized moving forward with the DNN. For future iterations, I would optimize memory handling and try more complete preprocessing.
 
 ### Deep Neural Network
 - **Architecture**: 128 → 64 → 8 (output), ReLU activations, dropout 0.3.  
