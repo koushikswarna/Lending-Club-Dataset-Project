@@ -197,6 +197,8 @@ df.head()
 
 df.select_dtypes(include='object').columns.tolist()
 
+df.fillna(0,inplace=True)
+
 y=df[['loan_status_Current','loan_status_Default','loan_status_Does not meet the credit policy. Status:Charged Off','loan_status_Does not meet the credit policy. Status:Fully Paid','loan_status_Fully Paid','loan_status_In Grace Period','loan_status_Late (16-30 days)','loan_status_Late (31-120 days)']]
 
 
@@ -234,7 +236,7 @@ print(classification_report(y_test_labels,pred1))
 
 df.isnull().sum().sort_values(ascending=False).head(30)
 
-df.fillna(0,inplace=True)
+
 
 from tensorflow.keras.models import Sequential
 
