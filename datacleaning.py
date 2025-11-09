@@ -206,6 +206,4 @@ y=df[['loan_status_Current','loan_status_Default','loan_status_Does not meet the
 X=df.drop(['loan_status_Current','loan_status_Default','loan_status_Does not meet the credit policy. Status:Charged Off','loan_status_Does not meet the credit policy. Status:Fully Paid','loan_status_Fully Paid','loan_status_In Grace Period','loan_status_Late (16-30 days)','loan_status_Late (31-120 days)'],axis=1)
 
 
-y_train.shape
 
-model.evaluate(X_train,y_train)
