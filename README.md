@@ -35,9 +35,7 @@ It demonstrates:
 
 ```text
 lending-club-ml/
-├── images/                  # Plots and figures
-├── lending_club_analysis.py # Data cleaning + EDA
-├── train_models.py          # Random Forest & Neural Network
+├── lending_club_analysis.py # Data cleaning + EDA 
 ├── requirements.txt
 ├── README.md
 
