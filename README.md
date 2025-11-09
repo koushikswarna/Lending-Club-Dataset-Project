@@ -54,7 +54,7 @@ lending-club-ml/
 
 ## 💻 How to Run
 
-1. **Clone the repo**
+ **Steps**
 ```bash
 git clone https://github.com/yourusername/lending-club-ml.git
 cd lending-club-ml
