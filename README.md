@@ -35,7 +35,8 @@ It demonstrates:
 
 ```text
 lending-club-ml/
-├── lending_club_analysis.py # Data cleaning + EDA 
+
+├── Lendingclub.py # Data cleaning + EDA 
 ├── requirements.txt
 ├── README.md
 
