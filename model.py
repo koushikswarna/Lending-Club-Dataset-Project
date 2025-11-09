@@ -94,6 +94,10 @@ model.fit(X_train,y_train,epochs=500,verbose=1,callbacks=[Early],validation_data
 
 X_train.min(), X_train.max()
 
+y_train.shape
+
+model.evaluate(X_train,y_train)
+
 print(np.isnan(X_train).sum(), np.isinf(X_train).sum())
 
 y_train.sum(axis=0)
