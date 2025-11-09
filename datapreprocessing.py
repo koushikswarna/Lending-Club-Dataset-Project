@@ -12,6 +12,12 @@ print(df[df['loan_status']=='Charged Off'])
 
 plt.figure(figsize=(40,20))
 
+sns.barplot(df['loan_status'])
+
+plt.figure(figsize=(40,20))
+
+plt.show()
+
 
 sns.boxplot(x=df['loan_status'],y=df['loan_amnt'],data=df)
 
