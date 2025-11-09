@@ -9,35 +9,61 @@
 
 ## 🚀 Project Overview
 
-This project analyzes the **Lending Club loan dataset** and builds models to **predict loan status**.  
+This project analyzes the **Lending Club loan dataset** and builds models to **predict loan status** for borrowers.  
 
 It demonstrates:
 
-- Data cleaning, preprocessing, and handling missing values
-- Exploratory Data Analysis (EDA) with **Seaborn & Matplotlib**
-- Feature engineering and one-hot encoding for categorical variables
-- Machine Learning with **Random Forests** and **Deep Neural Networks**
-- Model evaluation using **classification reports and confusion matrices**
-
----
-
-## 📈 Key Visuals
-
-### Loan Amount Distribution
-![Loan Amount Distribution](images/loan_boxplot.png)
-
-### Correlation Heatmap (Example)
-![Correlation Heatmap](images/corr_heatmap.png)
+- **Data cleaning and preprocessing**:
+  - Removing irrelevant or low-value columns
+  - Handling missing values
+  - Encoding categorical variables
+- **Exploratory Data Analysis (EDA)** to understand distributions and relationships
+- **Machine Learning models**:
+  - Random Forest Classifier
+  - Deep Neural Network using TensorFlow
+- **Model evaluation**:
+  - Confusion matrices
+  - Classification reports
+  - Accuracy metrics
 
 ---
 
 ## 🛠️ Project Structure
 
-```text
 lending-club-ml/
 
 ├── Lendingclub.py # Data cleaning + EDA 
 ├── requirements.txt
 ├── README.md
+
+### `Lendingclub.py`
+- Loads `loan.csv`
+- Performs **data cleaning**:
+  - Drops low-value or highly null columns
+  - Fills missing values
+  - Converts categorical features using one-hot encoding
+- Prepares `X` and `y` for ML models
+- Splits dataset into training and test sets
+- Trains a **Random Forest Classifier** and a **Deep Neural Network**
+- Evaluates models and prints:
+  - Confusion matrices
+  - Classification reports
+  - Accuracy scores
+
+---
+
+## 💻 How to Run
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/yourusername/lending-club-ml.git
+cd lending-club-ml
+
+# Make sure you're in the project folder
+pip install -r requirements.txt
+
+# Run the full data cleaning, model training, and evaluation
+python Lendingclub.py
+
 
 
